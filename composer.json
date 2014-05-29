@@ -1,0 +1,29 @@
+{
+    "name": "ahir/former",
+    "type": "library",
+    "description": "Bootstrap 3 form creator with file upload input for Laravel 4.",
+    "keywords": ["laravel", "bootstram", "form", "upload"],
+    "homepage": "https://github.com/ahirarge/former",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahir Ar-Ge",
+            "email": "development@ahir.com.tr"
+        },
+        {
+            "name": "Özgür Adem Işıklı",
+            "email": "i.ozguradem@gmail.com",
+            "role": "Creator & Designer"
+        }        
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ahir\\Former\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

@@ -27,8 +27,8 @@ In the $providers array add the following service provider for this package.
 ### Examples Blade
 
 ```php	
-	{{ Former::formOpen() }}
-		{{ Former::inputFile() }}
-		{{ Former::inputSubmit() }}
-	{{ Former::formClose() }}
+{{ Former::formOpen() }}
+	{{ Former::inputFile() }}
+	{{ Former::inputSubmit() }}
+{{ Former::formClose() }}
 ```

@@ -9,7 +9,7 @@ To install through composer, simply put the following in your `composer.json` fi
 ```json
 {
 	"require-dev": {
-		"ahir/former": "v1.0"
+		"ahir/former": "dev-master"
 	}
 }
 ```
